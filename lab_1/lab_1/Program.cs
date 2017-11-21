@@ -5,17 +5,20 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace lab_1
-{
-    class Program
-    {
-        Maker maker = new Maker();
+{ 
 
+
+
+class Program
+    {
+       
         static void Main(string[] args)
         {
+           
             Console.WriteLine("Введите возраст: ");
-            int ageAnimal = int.Parse(Console.ReadLine());
+            string ageAnimal = Console.ReadLine();
             Console.WriteLine("Введите норму еды (кг/день): ");
-            int foodAnimal = int.Parse(Console.ReadLine());
+            string foodAnimal = Console.ReadLine();
 
             Console.WriteLine("Введите 1 - создать волнистого папугая, 2 - создать крокодила, 3 - создать панду");
             int caseSwitch = int.Parse(Console.ReadLine());
@@ -24,7 +27,15 @@ namespace lab_1
             {
                 case 1:
                     Console.WriteLine("Case 1");
-                    break;
+
+                    
+                    Maker maker = new Maker();
+                    AnimalMaker AnimalMaker = new ParrotAnimalMaker();
+                    Animal parrot = maker.Make(AnimalMaker, ageAnimal);
+                    Console.WriteLine(parrot.ToString());
+                Console.Read();
+            
+                break;
                 case 2:
                     Console.WriteLine("Case 2");
                     break;
@@ -33,9 +44,9 @@ namespace lab_1
                     break;
 
             }
+          
             Console.Read();
         }
     }
-}
     
-
+}

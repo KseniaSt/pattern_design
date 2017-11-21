@@ -6,14 +6,16 @@ using System.Threading.Tasks;
 
 namespace lab_1
 {
+
     class Maker
     {
-            public Animal Make(AnimalMaker animalMaker, string n, string s)
-            {
-                animalMaker.SetFood(n);
-                animalMaker.SetAge(s);
-                return animalMaker.Animal;
-            }
+        public Animal Make(AnimalMaker animalMaker, string a)
+        {
+            animalMaker.CreateAnimal();
+            animalMaker.SetAge(a);
+            animalMaker.SetFood();
+            return animalMaker.Animal;
+        }
 
     }
 }

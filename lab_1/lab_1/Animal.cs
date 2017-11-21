@@ -6,30 +6,21 @@ using System.Threading.Tasks;
 
 namespace lab_1
 {
-    class Color
-    {
-        public string NameColor { get; set; }
-    }
-
-    class Food
-    {
-        public string DayFood { get; set; }
-    }
-
     class Animal
     {
-        public Color Color { get; set; }
+        public Age Age { get; set; }
         public Food Food { get; set; }
-    }
 
-    abstract class AnimalMaker : Maker
-    {
-        public Animal Animal { get; private set; }
-        public void CreateAnimal()
+        public override string ToString()
         {
-            Animal = new Animal();
+            StringBuilder sb = new StringBuilder();
+            if (Age != null)
+                sb.Append("Возраст: " + Age.Years + " лет" + "\n");
+            if (Food != null)
+                sb.Append(Food.DayFood + "\n");
+
+            return sb.ToString();
         }
-        public abstract void SetFood(string s);
-        public abstract void SetAge(string n);
     }
+    
 }
