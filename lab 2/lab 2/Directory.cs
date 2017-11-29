@@ -20,5 +20,14 @@ namespace lab_2
         {
             components.Remove(component);
         }
+        public override void Print()
+        {
+            Console.WriteLine("Узел " + name);
+            Console.WriteLine("Подузлы:");
+            for (int i = 0; i < components.Count; i++)
+            {
+                components[i].Print();
+            }
+        }
     }
 }
