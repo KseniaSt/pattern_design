@@ -9,11 +9,11 @@ namespace lab_1
 
     class Maker
     {
-        public Animal Make(AnimalMaker animalMaker, string a)
+        public Animal Make(AnimalMaker animalMaker, string a, string b)
         {
             animalMaker.CreateAnimal();
             animalMaker.SetAge(a);
-            animalMaker.SetFood();
+            animalMaker.SetFood(b);
             return animalMaker.Animal;
         }
 

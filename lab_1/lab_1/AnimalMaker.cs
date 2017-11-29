@@ -13,7 +13,7 @@ namespace lab_1
         {
             Animal = new Animal();
         }
-        public abstract void SetFood();
+        public abstract void SetFood(string a);
         public abstract void SetAge(string a);
     }
 }

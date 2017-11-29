@@ -45,8 +45,10 @@
     <Compile Include="Age.cs" />
     <Compile Include="Animal.cs" />
     <Compile Include="AnimalMaker.cs" />
+    <Compile Include="CrocoAnimalMaker.cs" />
     <Compile Include="Food.cs" />
     <Compile Include="Maker.cs" />
+    <Compile Include="PandaAnimalMaker.cs" />
     <Compile Include="ParrotAnimalMaker.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

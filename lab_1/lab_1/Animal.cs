@@ -17,7 +17,7 @@ namespace lab_1
             if (Age != null)
                 sb.Append("Возраст: " + Age.Years + " лет" + "\n");
             if (Food != null)
-                sb.Append(Food.DayFood + "\n");
+                sb.Append("Дневная норма питания: " + Food.DayFood + "\n");
 
             return sb.ToString();
         }

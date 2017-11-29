@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab_1
 {
-    class ParrotAnimalMaker : AnimalMaker
+    class CrocoAnimalMaker : AnimalMaker
     {
         public override void SetFood(string a)
         {
@@ -15,7 +15,7 @@ namespace lab_1
 
         public override void SetAge(string a)
         {
-            this.Animal.Age = new Age { Years = a};
+            this.Animal.Age = new Age { Years = a };
         }
 
     }
