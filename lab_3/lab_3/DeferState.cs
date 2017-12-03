@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace lab_3
 {
-    class ConsiderState : IState
+    class DeferState : IState
     {
         private readonly Grant _grant;
-        public ConsiderState(Grant grant)
+        public DeferState(Grant grant)
         {
             _grant = grant;
         }
@@ -21,21 +21,19 @@ namespace lab_3
 
         public void Consider()
         {
-            Console.WriteLine("Грант розглядається");
+            Console.WriteLine("Грант вже розглядається");
         }
         public void Defer()
         {
-            _grant.SetState(_grant.DeferState);
-            _grant.DeferGrant();
-           // Console.WriteLine("Грант відкладенhh");
+            Console.WriteLine("Грант відкладений");
         }
         public void Reject()
         {
-            Console.WriteLine("Грант ще не розглянут");
+            Console.WriteLine("Грант відхилен");
         }
         public void Confirm()
         {
-            Console.WriteLine("Грант ще не розглянут ");
+            Console.WriteLine("Грант підтверджен");
         }
         public void Withdraw()
         {

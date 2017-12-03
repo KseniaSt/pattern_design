@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace lab_3
 {
-    class CreateState : IState
+    class RejectState : IState
     {
         private readonly Grant _grant;
-        public CreateState(Grant grant)
+        public RejectState(Grant grant)
         {
             _grant = grant;
         }
@@ -29,7 +29,7 @@ namespace lab_3
         }
         public void Reject()
         {
-            Console.WriteLine("Грант не подан"); 
+            Console.WriteLine("Грант відхилено");
         }
         public void Confirm()
         {
@@ -37,15 +37,7 @@ namespace lab_3
         }
         public void Withdraw()
         {
-            Console.WriteLine("Грант не подан");
+            Console.WriteLine("Грант відкликано");
         }
     }
 }
-/*
-void Create();      // створити
-        void Consider();    // розглянути
-        void Defer();       // відкласти
-        void Reject();      // відхилити
-        void Confirm();     // підтвердити        
-        void Withdraw();    // відкликати 
-        */

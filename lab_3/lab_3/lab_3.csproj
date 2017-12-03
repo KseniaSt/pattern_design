@@ -44,10 +44,12 @@
   <ItemGroup>
     <Compile Include="ConsiderState.cs" />
     <Compile Include="CreateState.cs" />
+    <Compile Include="DeferState.cs" />
     <Compile Include="Grant.cs" />
     <Compile Include="IState.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RejectState.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

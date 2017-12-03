@@ -11,9 +11,12 @@ namespace lab_3
         static void Main(string[] args)
         {
             var grant = new Grant();
-            grant.With
-           grant.CreateGrant();
+           
+          // grant.CreateGrant();
             grant.ConsiderGrant();
+            grant.DeferGrant();
+            grant.RejectGrant();
+            grant.WithDrawGrant();
             Console.Read();
         }
     }
