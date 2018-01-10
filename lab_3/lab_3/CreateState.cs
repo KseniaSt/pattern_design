@@ -42,7 +42,7 @@ namespace lab_3
     }
 }
 /*
-void Create();      // створити
+        void Create();      // створити
         void Consider();    // розглянути
         void Defer();       // відкласти
         void Reject();      // відхилити

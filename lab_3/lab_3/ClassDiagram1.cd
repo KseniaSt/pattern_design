@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="lab_3.ConsiderState" BaseTypeListCollapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIACAAAAAAQAAAAAAAAAAAEAEAAAEAAAAAAAAAAAIA=</HashCode>
+      <FileName>ConsiderState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="lab_3.CreateState" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIACAAAAAAQAAAAAAAAAAAEAEAAAEAAAAAAAAAAAIA=</HashCode>
+      <FileName>CreateState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.21" Collapsed="true" />
+  </Class>
+  <Class Name="lab_3.DeferState" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIACAAAAAAQAAAAAAAAAAAEAEAAAEAAAAAAAAAAAIA=</HashCode>
+      <FileName>DeferState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="lab_3.Grant">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAIAAAAAAAAAABAACIAAAgBAAAgEAAAAAAAAEAA=</HashCode>
+      <FileName>Grant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab_3.Program" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lab_3.RejectState" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIACAAAAAAQAAAAAAAAAAAEAEAAAEAAAAAAAAAAAIA=</HashCode>
+      <FileName>RejectState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="lab_3.IState" Collapsed="true">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAQAAAAAAAAAAAEAEAAAEAAAAAAAAAAAIA=</HashCode>
+      <FileName>IState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
